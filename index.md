@@ -16,6 +16,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+
 [Project 4](Saeed_Amiri.github.io/sample_page)
 
 ---
