@@ -21,10 +21,12 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-
+        
+        <p class="view"><a href="https://www.canva.com/design/DAE7QDYTr_o/DwBHHPLghVJOl8wfOdSggQ/view?utm_content=DAE7QDYTr_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View My Resume</a></p>
+        
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        <!-- <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p> -->
+        {% endif %} 
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
