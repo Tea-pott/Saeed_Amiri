@@ -17,7 +17,7 @@
 
 ---
 
-[Project 4](/Saeed_Amiri.github.io/blob/master/sample_page.md)
+[Project 4](sample_page.md)
 
 ---
 
