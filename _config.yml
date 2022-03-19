@@ -2,11 +2,11 @@ title: Saeed Amiri # your name (or website title) here
 logo: "images/Saeed_Amiri.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
-  I'm Saeed. Aspiring data analyst with background in natural science.
+  I'm Saeed. Aspiring data analyst with background in science.
   <br><br>
   <a href="https://www.linkedin.com/in/saeed-amiri/">View My LinkedIn Profile</a> 
+  <a href="saeedamiri6990@gmail.com">Email Me</a>
   
-favicon: /images/favicon.png
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
