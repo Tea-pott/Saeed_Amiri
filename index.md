@@ -17,7 +17,7 @@
 
 ---
 
-[Project 4](/Saeed_Amiri.github.io/sample_page)
+[Project 4](https://github.com/Tea-pott/Saeed_Amiri.github.io/blob/master/sample_page)
 
 ---
 
