@@ -5,14 +5,17 @@
 ### Project
 
 [Covid Data Analysis with SQL](/sample_page)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Tableau Project](/pdf/sample_presentation.pdf)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Python Project](http://example.com/)
+<br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
