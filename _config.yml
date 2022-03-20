@@ -4,11 +4,11 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   I'm Saeed. Aspiring data analyst with background in science.
   <br><br>
-  <a href="https://www.linkedin.com/in/saeed-amiri/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/saeed-amiri/" target="_blank">View My LinkedIn Profile</a> 
   <br>
-  <a href="mailto:saeedamiri6990@gmail.com">Email Me</a>
+  <a href="mailto:saeedamiri6990@gmail.com" target="_blank">Email Me</a>
    <br>
-  <a href="https://www.canva.com/design/DAE7QDYTr_o/DwBHHPLghVJOl8wfOdSggQ/view?utm_content=DAE7QDYTr_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">View My Resume</a> 
+  <a href="https://www.canva.com/design/DAE7QDYTr_o/DwBHHPLghVJOl8wfOdSggQ/view?utm_content=DAE7QDYTr_o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">View My Resume</a> 
   
   
 theme: jekyll-theme-minimal
