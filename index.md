@@ -20,6 +20,8 @@
 
 [Project 4](sample_page.md)
 
+
 ---
-<p style="font-size:11px">Template from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+
+<p style="font-size:11px">Page Template from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
