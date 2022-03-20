@@ -3,17 +3,17 @@
 ---
 
 [Covid Data Analysis with SQL](/sample_page)
-<br>
+<br><br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Tableau Project](/pdf/sample_presentation.pdf)
-<br>
+<br><br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Python Project](http://example.com/)
-<br>
+<br><br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
