@@ -1,8 +1,6 @@
-## Portfolio
+## Portfolio Projects
 
 ---
-
-### Project
 
 [Covid Data Analysis with SQL](/sample_page)
 <br>
