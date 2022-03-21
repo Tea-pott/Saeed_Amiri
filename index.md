@@ -7,21 +7,17 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
+[Python Project](python_project.md)
+<br><br>
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+
+<!---
 [Tableau Project](/pdf/sample_presentation.pdf)
 <br><br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Python Project](http://example.com/)
-<br><br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-[Project 4](sample_page.md)
-
-
----
+-->
 
 <p style="font-size:11px">Page Template from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
