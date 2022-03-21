@@ -1,6 +1,9 @@
-## Covid Data Analysis with SQL
+## Covid Data Exploration with SQL (MS SQL Server)
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** 
+1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths).
+2. Goal of the project - What am I looking for in this data or what questions I am trying to answer: 
+3. Gist of what I have found in the data set:
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
