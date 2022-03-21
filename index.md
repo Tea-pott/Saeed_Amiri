@@ -2,7 +2,7 @@
 
 ---
 
-[Covid Data Analysis with SQL](/sample_page)
+[Covid Data Analysis with SQL](sql_project.md)
 <br><br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
