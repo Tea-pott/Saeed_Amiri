@@ -25,15 +25,16 @@ order by 5 desc
 
 ```
 
-2. Percent of population infected in Asian countries (as of 2022-01-24).
+2. Percent of population infected in Asian countries based on confirmed cases (as of 2022-01-24).
 (Of course someone could ask if people who are infected many times are counted again in the total_cases or not.)
 
 ```sql
 
-SELECT location, date, total_cases, population, (total_cases/population)*100 AS Infected_population_perc
+SELECT location, date, MAX(total_cases) as Highest_case_count, population, MAX((total_cases/population)*100) AS Infected_population_perc
 From SQL_Project..[covid-death]
-WHERE continent = 'Asia' and date  = '2022-01-24 00:00:00.000'
-order by 5 desc
+WHERE continent = 'Asia'
+group by location, population, date
+order by Infected_population_perc desc
 
 ```
 
