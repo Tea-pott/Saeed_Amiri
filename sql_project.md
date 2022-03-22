@@ -6,6 +6,9 @@
 3. Goal of the project: I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and organized and filtered to make quantitative observations and get a sense for the data.
 4. Gist of what I have found in the data set: 
 
+<br>
+<img src="images/coronavirus-data-explorer.png?raw=true"/>
+<br>
 
 ### Summary of the important quesries to explore the data
 
@@ -23,6 +26,7 @@ order by 5 desc
 ```
 
 2. Percent of population infected in Asian countries (as of 2022-01-24).
+(Of course someone could ask if people who are infected many times are counted again in the total_cases or not.)
 
 ```sql
 
@@ -68,6 +72,4 @@ if (isAwesome){
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
