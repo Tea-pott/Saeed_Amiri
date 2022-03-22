@@ -1,9 +1,10 @@
 ## Covid Data Exploration with SQL (MS SQL Server)
 
 **Project description:** 
-1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths).
-2. Goal of the project - What am I looking for in this data or what questions I am trying to answer: 
-3. Gist of what I have found in the data set:
+1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths)
+2. The data covers a wide range of information from death count to test, vaccination, hospital admissions, financial and medical conditions, GDP, etc of all countries from the beginning of the pandemic so far.
+3. Goal of the project - What am I looking for in this data or what questions I am trying to answer: In this project, I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and organized and filtered to make quantitative observations and get a sense for the data.
+4. Gist of what I have found in the data set: 
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
