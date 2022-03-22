@@ -9,7 +9,7 @@
 
 ### Summary of the important quesries to explore the data
 
-1. Percent of patients that passed away in Europe in Desending order (as of 2022-01-24).
+1. Percent of patients that passed away in European countries in Desending order (as of 2022-01-24).
 It shows the possibility of death in case of infection for each country and for more precise outlook the analysis could be broken down to provinces and cities combined with socio-demographic and health conditions. 
 For example, it could be the case that amount of daily sunlight in a region could have an effect on mortality rate of men over 60 with certain medical condition.  
 
@@ -21,6 +21,29 @@ WHERE continent = 'Europe' and date = '2022-01-24 00:00:00.000'
 order by 5 desc
 
 ```
+
+2. Percent of population infected in Asian countries (as of 2022-01-24).
+
+```sql
+
+SELECT location, date, total_cases, population, (total_cases/population)*100 AS Infected_population_perc
+From SQL_Project..[covid-death]
+WHERE continent = 'Asia' and date  = '2022-01-24 00:00:00.000'
+order by 5 desc
+
+```
+
+3. 
+
+```sql
+
+SELECT location, date, total_cases, population, (total_cases/population)*100 AS Infected_population_perc
+From SQL_Project..[covid-death]
+WHERE continent = 'Asia' and date  = '2022-01-24 00:00:00.000'
+order by 5 desc
+
+```
+
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
