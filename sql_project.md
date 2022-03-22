@@ -10,6 +10,8 @@
 ### Summary of the important quesries to explore the data
 
 1. Percent of patients that passed away in Europe in Desending order (as of 2022-01-24)
+It shows the possibility of death in case of infection for each country and for more precise outlook the analysis could be broken down to provinces and cities combined with socio-demographic and health conditions. 
+For example, it could be the case that amount of daily sunlight in a region could have an effect on mortality rate of men over 60 with certain medical condition.  
 
 ```sql
 
