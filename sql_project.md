@@ -2,10 +2,23 @@
 
 **Project description:** 
 1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths)
-2. The data covers a wide range of information from death count to test, vaccination, hospital admissions, financial and medical conditions, GDP, etc of all countries from the beginning of the pandemic so far.
-3. Goal of the project - What am I looking for in this data or what questions I am trying to answer: In this project, I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and organized and filtered to make quantitative observations and get a sense for the data.
+2. The data covers a wide range of information from death count to test, vaccination, hospital admissions, financial and medical conditions, GDP, etc of all countries from the beginning of the pandemic till 24th Jan 2022.
+3. Goal of the project: I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and organized and filtered to make quantitative observations and get a sense for the data.
 4. Gist of what I have found in the data set: 
 
+
+### Summary of the important quesries to explore the data
+
+1. Percent of patients that passed away in Europe in Desending order (as of 2022-01-24)
+
+```sql
+
+SELECT location, date, total_cases, total_deaths, round((total_deaths/total_cases)*100, 2) AS death_percent
+From SQL_Project..[covid-death]
+WHERE continent = 'Europe' and date = '2022-01-24 00:00:00.000'
+order by 5 desc
+
+```
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
