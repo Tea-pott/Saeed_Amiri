@@ -40,7 +40,8 @@ order by Infected_population_perc desc
 
 ```
 
-3. Vaccination count in countries around the world (till 2022-01-24) 
+3. **Global Vaccination:**  
+Total vaccination count in countries around the world (till 2022-01-24) 
 (Inner Join)
 
 ```sql
@@ -56,7 +57,8 @@ Order by Total_vaccination desc
 
 ```
 
-4. Rolling Count of vaccination in countries around the world (till 2022-01-24) 
+4. **Global Rollong Vaccination Count:**
+Rolling Count of daily administered vaccines in countries around the world (till 2022-01-24) 
 
 ```sql
 
