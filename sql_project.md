@@ -2,11 +2,10 @@
 
 **Project description:** 
 
-1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths)
+1. The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths)
 2. The data covers a wide range of information from death count to test, vaccination, hospital admissions, financial and medical conditions, GDP, etc of all countries from the beginning of the pandemic till 24th Jan 2022.
-3. Goal of the project: I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and filtered and did some calcualtion to make quantitative observations and get a sense for the data.
-4. Gist of what I have found in the data set: 
-With the brief exploration one could rank the countries based on the Mortality rate, Infection rate, daily vaccination count, or break them down to regions or select certain countries and obtain insights on how well different countries dealed and managed the spread of virus.
+3. I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and filtered and did some calcualtion to make quantitative observations and get a sense for the data.
+4. With the brief exploration one could rank the countries based on the Mortality rate, Infection rate, daily vaccination count, or break them down to regions or select certain countries and obtain insights on how well different countries dealed and managed the spread of virus.
 
 <br>
 <img src="images/coronavirus-data-explorer.png?raw=true"/>
