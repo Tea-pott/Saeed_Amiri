@@ -26,7 +26,7 @@ order by 5 desc
 
 ```
 
-2. **Infection rate in Asia: **
+2. **Infection rate in Asia:**
 Percent of population infected in Asian countries based on confirmed cases (as of 2022-01-24). 
 (Of course someone could ask if people who are infected many times are counted again in the total_cases or not.)
 
