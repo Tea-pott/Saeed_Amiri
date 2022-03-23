@@ -7,9 +7,12 @@
 <img src="images/coronavirus-data-explorer.png?raw=true"/>
 
 ---
-[Python Project](python_project.md)
+## Coming Soon!
+Python data exploration  Project
+
+<!--- [Python Project](python_project.md)
 <br><br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
 
