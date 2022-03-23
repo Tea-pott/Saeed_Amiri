@@ -1,10 +1,12 @@
 ## Covid Data Exploration with SQL (MS SQL Server)
 
 **Project description:** 
+
 1. Data origin: The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths)
 2. The data covers a wide range of information from death count to test, vaccination, hospital admissions, financial and medical conditions, GDP, etc of all countries from the beginning of the pandemic till 24th Jan 2022.
 3. Goal of the project: I did some exploration with some of the columns (attributes) of the dataset, namely daily new_case, death and vaccination counts and filtered and did some calcualtion to make quantitative observations and get a sense for the data.
 4. Gist of what I have found in the data set: 
+With the brief exploration one could rank the countries based on the Mortality rate, Infection rate, daily vaccination count, or break them down to regions or select certain countries and obtain insights on how well different countries dealed and managed the spread of virus.
 
 <br>
 <img src="images/coronavirus-data-explorer.png?raw=true"/>
@@ -73,35 +75,4 @@ WHERE dea.continent is not null
 Order by 2,3
 
 ```
-
-
-
-
-
-
-
-### 1. Suggest hypotheses about the causes of observed phenomena
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
 
