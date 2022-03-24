@@ -13,7 +13,7 @@
 
 ### Summary of quesries to explore the data
 
-1. **Mortaity rate in Europe:** 
+**1. Mortaity rate in Europe:** 
 Percent of confirmed cases that passed away in European countries in Desending order (as of 2022-01-24).
 It shows the possibility of death in case of infection for each country and for more precise outlook the analysis could be broken down to provinces and cities combined with socio-demographic and health conditions. 
 For example, it could be the case that amount of daily sunlight in a region could have an effect on mortality rate of men over 60 with certain medical condition.  
@@ -27,7 +27,7 @@ order by 5 desc
 
 ```
 
-2. **Infection rate in Asia:**
+**2. Infection rate in Asia:**
 Percent of population infected in Asian countries based on confirmed cases (as of 2022-01-24). 
 (Of course someone could ask if people who are infected many times are counted again in the total_cases or not.)
 
@@ -41,7 +41,7 @@ order by Infected_population_perc desc
 
 ```
 
-3. **Global Vaccination:**  
+**3. Global Vaccination:**  
 Total vaccination count in countries around the world (till 2022-01-24) 
 (Inner Join)
 
@@ -58,7 +58,7 @@ Order by Total_vaccination desc
 
 ```
 
-4. **Global Rollong Vaccination Count:**
+**4. Global Rollong Vaccination Count:**
 Rolling Count of daily administered vaccines in countries around the world (till 2022-01-24) 
 
 ```sql
