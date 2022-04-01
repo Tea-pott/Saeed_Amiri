@@ -2,7 +2,7 @@
 
 **Project description:** 
 
-1. The data was pulled from [ourworldindata.org](https://ourworldindata.org/covid-deaths) 
+1. The data was pulled from <a href="https://ourworldindata.org/covid-deaths" target="_blank">ourworldindata.org</a>. 
 2. The data covers 1st of January 2020 till 24th of January 2022.
 3. Dashboard consists of 4 interactive visualization:
     - Global figures of infection, death and death percentage
