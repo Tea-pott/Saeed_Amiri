@@ -10,6 +10,8 @@
     - Line chart showing the flaccuation of percent of population infected in a group of countries
     - Color coded map based on infection percent as of 24.01.2022 
 
+4. Access the [Covid Dashboard](https://public.tableau.com/views/CovidDashboard_16488334536630/CovidDashboard?:language=en-US&:display_count=n&:origin=viz_share_link) on Tableau Public.
+
 
 <br>
 <img src="images/Covid Dashboard.png?raw=true"/>
