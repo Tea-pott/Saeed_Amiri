@@ -17,7 +17,7 @@
 [Bicycle Sales Dashboard](excel_project.md)
 <br><br>
 <img src="images/Bicycle_Sales_Dashboard.PNG?raw=true"/>
-images/Bicycle_Sales_Dashboard.PNG
+
 ---
 ## Coming Soon!
 Python data exploration  Project
