@@ -13,6 +13,12 @@
 <img src="images/Covid Dashboard.png?raw=true"/>
 
 ---
+
+[Bicycle Sales Dashboard](excel_project.md)
+<br><br>
+<img src="images/Bicycle_Sales_Dashboard.png?raw=true"/>
+
+---
 ## Coming Soon!
 Python data exploration  Project
 
