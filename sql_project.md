@@ -20,10 +20,18 @@ For example, it could be the case that amount of daily sunlight in a region coul
 
 ```sql
 
-SELECT location, date, total_cases, total_deaths, round((total_deaths/total_cases)*100, 2) AS death_percent
-From SQL_Project..[covid-death]
-WHERE continent = 'Europe' and date = '2022-01-24 00:00:00.000'
-order by 5 desc
+SELECT 
+	location, 
+	date, 
+	total_cases, 
+	total_deaths, 
+	round((total_deaths/total_cases)*100, 2) AS death_percent
+FROM 
+	SQL_Project..[covid-death]
+WHERE 
+	continent = 'Europe' and date = '2022-01-24 00:00:00.000'
+ORDER BY 
+	5 desc
 
 ```
 
@@ -33,11 +41,20 @@ Percent of population infected in Asian countries based on confirmed cases (as o
 
 ```sql
 
-SELECT location, date, MAX(total_cases) as Highest_case_count, population, MAX((total_cases/population)*100) AS Infected_population_perc
-From SQL_Project..[covid-death]
-WHERE continent = 'Asia'
-group by location, population, date
-order by Infected_population_perc desc
+SELECT 
+	location, 
+	date, 
+	MAX(total_cases) as Highest_case_count, 
+	population, 
+	MAX((total_cases/population)*100) AS Infected_population_perc
+FROM  
+	SQL_Project..[covid-death]
+WHERE 
+	continent = 'Asia'
+GROUP BY 
+	location, population, date
+ORDER BY 
+	Infected_population_perc desc
 
 ```
 
@@ -47,14 +64,24 @@ Total vaccination count in countries around the world (till 2022-01-24)
 
 ```sql
 
-SELECT dea.location, population, Max(cast (total_vaccinations as bigint)) as Total_vaccination
-From SQL_Project..[covid-death] dea
-Inner Join SQL_Project..[covid-vaccinations] vac
-	On dea.location = vac.location 
-	and dea.date = vac.date
-WHERE dea.continent is not null
-Group by dea.location, population
-Order by Total_vaccination desc
+SELECT 
+	dea.location, 
+	population, 
+	Max(cast (total_vaccinations as bigint)) as Total_vaccination
+FROM 
+	SQL_Project..[covid-death] dea
+INNER JOIN 
+	SQL_Project..[covid-vaccinations] vac
+ON 
+	dea.location = vac.location 
+AND 
+	dea.date = vac.date
+WHERE 
+	dea.continent is not null
+GROUP BY 
+	dea.location, population
+ORDER BY 
+	Total_vaccination desc
 
 ```
 
@@ -63,15 +90,26 @@ Rolling Count of daily administered vaccines in countries around the world (till
 
 ```sql
 
-SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
+SELECT 
+	dea.continent, 
+	dea.location, 
+	dea.date, 
+	dea.population, 
+	vac.new_vaccinations,
 	Sum(Convert(bigint, vac.new_vaccinations)) OVER (Partition by dea.location Order by dea.location,
 	dea.date) as Rolling_vac_count
-From SQL_Project..[covid-death] dea
-Join SQL_Project..[covid-vaccinations] vac
-	On dea.location = vac.location 
-	and dea.date = vac.date
-WHERE dea.continent is not null
-Order by 2,3
+FROM 
+	SQL_Project..[covid-death] dea
+JOIN 
+	SQL_Project..[covid-vaccinations] vac
+ON 
+	dea.location = vac.location 
+AND 
+	dea.date = vac.date
+WHERE 
+	dea.continent is not null
+ORDER BY 
+	2,3
 
 ```
 
