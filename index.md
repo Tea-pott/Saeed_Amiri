@@ -13,11 +13,14 @@
 <img src="images/Covid Dashboard.png?raw=true"/>
 
 ---
+## Coming Soon!
+Bicycle Sales Dashboard in Excel
 
+<!---
 [Bicycle Sales Dashboard](excel_project.md)
 <br><br>
 <img src="images/Bicycle_Sales_Dashboard.PNG?raw=true"/>
-
+-->
 ---
 ## Coming Soon!
 Python data exploration  Project
