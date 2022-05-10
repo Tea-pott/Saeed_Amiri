@@ -21,17 +21,17 @@ For example, it could be the case that amount of daily sunlight in a region coul
 ```sql
 
 SELECT 
-	location, 
-	date, 
-	total_cases, 
-	total_deaths, 
-	round((total_deaths/total_cases)*100, 2) AS death_percent
+  location, 
+  date, 
+  total_cases, 
+  total_deaths, 
+  round((total_deaths/total_cases)*100, 2) AS death_percent
 FROM 
-	SQL_Project..[covid-death]
+  SQL_Project..[covid-death]
 WHERE 
-	continent = 'Europe' and date = '2022-01-24 00:00:00.000'
-ORDER BY 
-	5 desc
+  continent = 'Europe' and date = '2022-01-24 00:00:00.000'
+ORDER BY  
+  5 desc
 
 ```
 
