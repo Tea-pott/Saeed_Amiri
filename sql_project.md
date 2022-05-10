@@ -31,7 +31,7 @@ FROM
 WHERE 
   continent = 'Europe' and date = '2022-01-24 00:00:00.000'
 ORDER BY  
-  5 desc
+  5 DESC
 
 ```
 
@@ -42,19 +42,19 @@ Percent of population infected in Asian countries based on confirmed cases (as o
 ```sql
 
 SELECT 
-	location, 
-	date, 
-	MAX(total_cases) as Highest_case_count, 
-	population, 
-	MAX((total_cases/population)*100) AS Infected_population_perc
+  location, 
+  date, 
+  MAX(total_cases) as Highest_case_count, 
+  population, 
+  MAX((total_cases/population)*100) AS Infected_population_perc
 FROM  
-	SQL_Project..[covid-death]
+  SQL_Project..[covid-death]
 WHERE 
-	continent = 'Asia'
+  continent = 'Asia'
 GROUP BY 
-	location, population, date
+  location, population, date
 ORDER BY 
-	Infected_population_perc desc
+  Infected_population_perc DESC
 
 ```
 
@@ -65,23 +65,23 @@ Total vaccination count in countries around the world (till 2022-01-24)
 ```sql
 
 SELECT 
-	dea.location, 
-	population, 
-	Max(cast (total_vaccinations as bigint)) as Total_vaccination
+  dea.location, 
+  population, 
+  Max(cast (total_vaccinations as bigint)) as Total_vaccination
 FROM 
-	SQL_Project..[covid-death] dea
+  SQL_Project..[covid-death] dea
 INNER JOIN 
-	SQL_Project..[covid-vaccinations] vac
+  SQL_Project..[covid-vaccinations] vac
 ON 
-	dea.location = vac.location 
+  dea.location = vac.location 
 AND 
-	dea.date = vac.date
+  dea.date = vac.date
 WHERE 
-	dea.continent is not null
+  dea.continent is not null
 GROUP BY 
-	dea.location, population
+  dea.location, population
 ORDER BY 
-	Total_vaccination desc
+  Total_vaccination DESC
 
 ```
 
@@ -91,23 +91,23 @@ Rolling Count of daily administered vaccines in countries around the world (till
 ```sql
 
 SELECT 
-	dea.continent, 
-	dea.location, 
-	dea.date, 
-	dea.population, 
-	vac.new_vaccinations,
-	Sum(Convert(bigint, vac.new_vaccinations)) OVER (Partition by dea.location Order by dea.location,
-	dea.date) as Rolling_vac_count
+  dea.continent, 
+  dea.location, 
+  dea.date, 
+  dea.population, 
+  vac.new_vaccinations,
+  Sum(Convert(bigint, vac.new_vaccinations)) OVER (Partition by dea.location Order by dea.location,
+  dea.date) as Rolling_vac_count
 FROM 
-	SQL_Project..[covid-death] dea
+  SQL_Project..[covid-death] dea
 JOIN 
-	SQL_Project..[covid-vaccinations] vac
+  SQL_Project..[covid-vaccinations] vac
 ON 
-	dea.location = vac.location 
+  dea.location = vac.location 
 AND 
-	dea.date = vac.date
+  dea.date = vac.date
 WHERE 
-	dea.continent is not null
+  dea.continent is not null
 ORDER BY 
 	2,3
 
