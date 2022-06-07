@@ -13,10 +13,11 @@
 <img src="images/Covid Dashboard.png?raw=true"/>
 
 ---
-<!---
-[BRFSS 2013 Dataset exploration with R](brfss_2013_r.md)
+
+[BRFSS 2013 Dataset exploration with R](Exploring-the-BRFSS-data.html)
 <br><br>
 
+<!---
 <img src="images/Bicycle_Sales_Dashboard.PNG?raw=true"/>
 -->
 
