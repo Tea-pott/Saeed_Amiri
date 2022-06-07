@@ -13,12 +13,13 @@
 <img src="images/Covid Dashboard.png?raw=true"/>
 
 ---
-
+<!---
 [BRFSS 2013 Dataset exploration with R](brfss_2013_r.md)
 <br><br>
-<!---
+
 <img src="images/Bicycle_Sales_Dashboard.PNG?raw=true"/>
 -->
+
 ---
 ## Coming Soon!
 Bicycle Sales Dashboard in Excel
