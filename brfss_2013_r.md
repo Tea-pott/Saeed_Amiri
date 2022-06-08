@@ -10,3 +10,18 @@
 <br>
 <img src="images/BRFSS.PNG?raw=true"/>
 <br>
+
+### Summary of analysis and findings:
+
+**1. Sleep time raletion to a,b and c:** 
+
+I was interested to find attributes in the dataset that correlates with Sleep time of the survey respondents. On the first attempt I looked at Gender, Income, Education to see if there is connection.
+
+```r
+
+ggplot(data = sleep_clean, aes(x = sleptim1)) +
+  geom_boxplot() +
+  xlab("Sleep time"
+
+```
+<img src="images/Sleep_time.PNG?raw=true"/>
