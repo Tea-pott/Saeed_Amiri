@@ -21,7 +21,7 @@ I was interested to find attributes in the dataset that correlates with Sleep ti
 
 ggplot(data = sleep_clean, aes(x = sleptim1)) +
   geom_boxplot() +
-  xlab("Sleep time"
+  xlab("Sleep time")
 
 ```
 <img src="images/Sleep_time.PNG?raw=true"/>
