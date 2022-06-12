@@ -13,15 +13,20 @@
 
 ### Summary of analysis and findings:
 
-**1. Sleep time raletion to a,b and c:** 
+**1. Health Care coverage and Health care access raletion to Gender and Income level:** 
 
-I was interested to find attributes in the dataset that correlates with Sleep time of the survey respondents. On the first attempt I looked at Gender, Income, Education to see if there is connection.
+I was interested to see if Health care realted data of the survey respondents correlates with demographic data. On the first attempt I looked at Gender and Income to see if there is connection. As we go toward groups with higher income, the proportion of respondents with a health care plan increses, as shown in the chart.
 
 ```r
 
-ggplot(data = sleep_clean, aes(x = sleptim1)) +
-  geom_boxplot() +
-  xlab("Sleep time")
+ggplot(subset(health_clean, !is.na(income2)), aes(x = income2, fill = hlthpln1)) +
+  geom_bar(position = "fill", aes(y = (..count..)/sum(..count..))) +
+  xlab("Income") +
+  labs(fill = "Health care coverage") +
+  scale_y_continuous(labels = scales::percent, name = "Proportion") +
+  coord_flip()
 
 ```
-<img src="images/Sleep_time.PNG?raw=true"/>
+<img src="images/income_healthplan.PNG?raw=true"/>
+
+
