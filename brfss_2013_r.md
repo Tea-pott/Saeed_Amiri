@@ -7,9 +7,9 @@
 4. I explored data for questions about Sleep time, Health Care Access and Demographics.  
 5. Full project document is accessible [here.](Exploring-the-BRFSS-data.html)
 
-<br>
+<!-- <br>
 <img src="images/BRFSS.PNG?raw=true"/>
-<br>
+<br> -->
 
 ### Summary of analysis and findings:
 
@@ -28,5 +28,21 @@ ggplot(subset(health_clean, !is.na(income2)), aes(x = income2, fill = hlthpln1))
 
 ```
 <img src="images/income_healthplan.PNG?raw=true"/>
+
+
+**2. Routine Checkups and Gender:** 
+I was curious if routine checkups correlate with the gender of the respondents. It seems that females go to routine checkup more regularly than men. More than 76% of the females did a check up within past year while that number is 68% for men.
+
+```r
+
+# Proportion of Males and Females in check up categories
+ggplot(health_clean, aes(x = sex, fill = checkup1)) +
+  geom_bar(position = "fill", aes(y = (..count..)/sum(..count..))) +
+  xlab("Gender") +
+  labs(fill = "Since last checkup") +
+  scale_y_continuous(labels = scales::percent, name = "Proportion") 
+
+```
+<img src="images/gender_checkup.PNG?raw=true"/>
 
 
