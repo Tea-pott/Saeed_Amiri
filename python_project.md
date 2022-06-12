@@ -2,7 +2,7 @@
 
 **Project description:** 
 
-1. Project notebook is accessible [here.](I-94 Interstate Project.html)
+1. Project notebook is accessible [here.](I-94_Interstate.html)
 
 ### 1. 
 
@@ -26,5 +26,5 @@ if (isAwesome){
 
 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/>  -->
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
