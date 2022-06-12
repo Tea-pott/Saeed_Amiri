@@ -31,6 +31,7 @@ ggplot(subset(health_clean, !is.na(income2)), aes(x = income2, fill = hlthpln1))
 
 
 **2. Routine Checkups and Gender:** 
+
 I was curious if routine checkups correlate with the gender of the respondents. It seems that females go to routine checkup more regularly than men. More than 76% of the females did a check up within past year while that number is 68% for men.
 
 ```r
@@ -47,6 +48,7 @@ ggplot(health_clean, aes(x = sex, fill = checkup1)) +
 
 
 **3. Internet Use and Education:** 
+
 I was wondering if education could be contributing factor to Internet Use of population. The survey asked respondents if they used Internet in the last 30 days. Interestingly enough, there is huge gap in Internet use for people with college degree and higher and people who went to school till 11 grade at most or those who didn't attended school. About 74% of respondets that never attended school, said No to the survey question while only 7% of college graduates said No.
 
 One might wonder, how big of a implication this will have. Like if certain public services are offered mostly online, then a part of a country's population will have difficulty reaching it and need other mediums to be able get access.
