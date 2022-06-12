@@ -46,3 +46,21 @@ ggplot(health_clean, aes(x = sex, fill = checkup1)) +
 <img src="images/gender_checkup.PNG?raw=true"/>
 
 
+**3. Internet Use and Education:** 
+I was wondering if education could be contributing factor to Internet Use of population. The survey asked respondents if they used Internet in the last 30 days. Interestingly enough, there is huge gap in Internet use for people with college degree and higher and people who went to school till 11 grade at most or those who didn't attended school. About 74% of respondets that never attended school, said No to the survey question while only 7% of college graduates said No.
+
+One might wonder, how big of a implication this will have. Like if certain public services are offered mostly online, then a part of a country's population will have difficulty reaching it and need other mediums to be able get access.
+
+```r
+
+# Proportion of people that used internet in last 30 days in each education leve
+ggplot(demog_clean, aes(x =  educa, fill = internet)) +
+  geom_bar(position = "fill", aes(y = (..count..)/sum(..count..))) +
+  xlab("Education") +
+  labs(fill = "Internet use") +
+  scale_y_continuous(labels = scales::percent, name = "Proportion") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  coord_flip()
+
+```
+<img src="images/education_internet.png?raw=true"/>
