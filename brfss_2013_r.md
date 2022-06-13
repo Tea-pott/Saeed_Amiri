@@ -13,6 +13,8 @@
 
 ### Summary of analysis and findings:
 
+For each of the questions I was interested to explore, I checked the distribution of the values in the relevant columns and decided if I need to drop the missing data and then tabulated and visualized the data to find if hypothsized realtion actually exist.  
+
 **1. Health Care coverage and Health care access raletion to Gender and Income level:** 
 
 I was interested to see if Health care realted data of the survey respondents correlates with demographic data. On the first attempt I looked at Gender and Income to see if there is connection. As we go toward groups with higher income, the proportion of respondents with a health care plan increses, as shown in the chart.
