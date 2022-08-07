@@ -2,7 +2,7 @@
 
 **Project description:** 
 
-1. Project notebook is accessible [here.](I-94_Interstate.html)
+1. Project notebook is accessible [here.](projects/I-94_Interstate.html)
 
 ### 1. 
 
