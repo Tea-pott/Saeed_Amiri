@@ -1,7 +1,7 @@
 ## Portfolio Projects
 ---
 
-- [Postgresql Database using Python](projects/Postgres DB.html)
+- [Postgresql Database using Python](projects/Postgres_DB.html)
 <br><br>
 <img src="images/flow.jpg?raw=true"/>
 
